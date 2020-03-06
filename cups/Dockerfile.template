@@ -9,7 +9,8 @@ RUN install_packages \
     libnss-mdns \
     foomatic-db-compressed-ppds  \
     hplip \
-    hplip-data
+    hplip-data \
+    jq
 
 # Add script
 COPY run.sh /
