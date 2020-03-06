@@ -7,7 +7,9 @@ RUN install_packages \
     avahi-daemon \
     dbus \
     libnss-mdns \
-    foomatic-db-compressed-ppds 
+    foomatic-db-compressed-ppds  \
+    hplip \
+    hplip-data
 
 # Add script
 COPY run.sh /
